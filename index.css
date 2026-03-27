@@ -8,30 +8,37 @@
     text-align: center;
     margin: 50px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px;
-    
+    box-shadow: 10px 10px 20px;
+  
+}
 
+hr{
+    margin-top: 40px;
 }
 .container header{
     margin-bottom: 70px;
+    margin-top: 20px;
 }
 .save{
     display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.save form{
+    display: flex;
     flex-direction: column;
-
+    
 }
 h1 ,h2{
-   
     color:rgb(26, 86, 94);
     font-weight: 500px;
-
 }
-
 h2{
     margin-bottom: 6px ;
 }
 button{
-    background: linear-gradient(90deg, rgb(26, 86, 94) ,rgb(45, 89, 45));
+    background: linear-gradient(90deg, rgb(26, 86, 94) ,rgb(45, 89, 0));
     color:white;
     font-size:16px ;
     border-radius: 5px;
@@ -53,10 +60,28 @@ button:hover{
 #taskContainer{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     padding:40px ;
-    margin-top:5px;
-    border: solid;
-    
 
+      
+}
+h3{
+    margin-top: 20px;
+    color:rgb(26, 86, 94);
+    font-weight: 500px;
+}
+.subdiv{
+    
+    display: flex  ;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 40px 5px 40px;
+    border: solid;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    height: 70px;
+    align-items: center;
+}
+.peri{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

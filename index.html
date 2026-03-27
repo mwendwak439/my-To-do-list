@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Notes App</title>
+    <title>To Do list</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,20 +12,22 @@
         <header>
 
             <h1>TO-DO LIST</h1>
+            <hr>
             
         </header>
 
         <div class="save">
             <h2>Add New task</h2>
             <form >
+
                 <input type="text" id="input1" placeholder="Enter task..." required>
-               
+                   <input type="date" name="date" id="tasktime"> 
                 <button  id="btn-save">SAVE TASK</button>
             </form>
         </div>
 
         <div class="task-section">
-            <h2>Your task</h2>
+            <h3>Your task</h3>
             <div id="taskContainer" >
                
             </div>
